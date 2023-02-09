@@ -1,0 +1,2159 @@
+// WMP2
+// WMPIO V 1.30
+// Created 01.11.2012
+
+version 710
+
+blocks 0
+entities 117
+objects 117
+
+wed {
+	palette {
+		00 00 00  0f 0f 0f  1f 1f 1f  2f 2f 2f  3f 3f 3f  4b 4b 4b  5b 5b 5b  6b 6b 6b  7b 7b 7b  8b 8b 8b  9b 9b 9b  ab ab ab  bb bb bb  cb cb cb  db db db  eb eb eb  
+		0f 0b 07  17 0f 0b  1f 17 0b  27 1b 0f  2f 23 13  37 2b 17  3f 2f 17  4b 37 1b  53 3b 1b  5b 43 1f  63 4b 1f  6b 53 1f  73 57 1f  7b 5f 23  83 67 23  8f 6f 23  
+		0b 0b 0f  13 13 1b  1b 1b 27  27 27 33  2f 2f 3f  37 37 4b  3f 3f 57  47 47 67  4f 4f 73  5b 5b 7f  63 63 8b  6b 6b 97  73 73 a3  7b 7b af  83 83 bb  8b 8b cb  
+		00 00 00  07 07 00  0b 0b 00  13 13 00  1b 1b 00  23 23 00  2b 2b 07  2f 2f 07  37 37 07  3f 3f 07  47 47 07  4b 4b 0b  53 53 0b  5b 5b 0b  63 63 0b  6b 6b 0f  
+		07 00 00  0f 00 00  17 00 00  1f 00 00  27 00 00  2f 00 00  37 00 00  3f 00 00  47 00 00  4f 00 00  57 00 00  5f 00 00  67 00 00  6f 00 00  77 00 00  7f 00 00  
+		13 13 00  1b 1b 00  23 23 00  2f 2b 00  37 2f 00  43 37 00  4b 3b 07  57 43 07  5f 47 07  6b 4b 0b  77 53 0f  83 57 13  8b 5b 13  97 5f 1b  a3 63 1f  af 67 23  
+		23 13 07  2f 17 0b  3b 1f 0f  4b 23 13  57 2b 17  63 2f 1f  73 37 23  7f 3b 2b  8f 43 33  9f 4f 33  af 63 2f  bf 77 2f  cf 8f 2b  df ab 27  ef cb 1f  ff f3 1b  
+		0b 07 00  1b 13 00  2b 23 0f  37 2b 13  47 33 1b  53 37 23  63 3f 2b  6f 47 33  7f 53 3f  8b 5f 47  9b 6b 53  a7 7b 5f  b7 87 6b  c3 93 7b  d3 a3 8b  e3 b3 97  
+		ab 8b a3  9f 7f 97  93 73 87  8b 67 7b  7f 5b 6f  77 53 63  6b 4b 57  5f 3f 4b  57 37 43  4b 2f 37  43 27 2f  37 1f 23  2b 17 1b  23 13 13  17 0b 0b  0f 07 07  
+		bb 73 9f  af 6b 8f  a3 5f 83  97 57 77  8b 4f 6b  7f 4b 5f  73 43 53  6b 3b 4b  5f 33 3f  53 2b 37  47 23 2b  3b 1f 23  2f 17 1b  23 13 13  17 0b 0b  0f 07 07  
+		db c3 bb  cb b3 a7  bf a3 9b  af 97 8b  a3 87 7b  97 7b 6f  87 6f 5f  7b 63 53  6b 57 47  5f 4b 3b  53 3f 33  43 33 27  37 2b 1f  27 1f 17  1b 13 0f  0f 0b 07  
+		6f 83 7b  67 7b 6f  5f 73 67  57 6b 5f  4f 63 57  47 5b 4f  3f 53 47  37 4b 3f  2f 43 37  2b 3b 2f  23 33 27  1f 2b 1f  17 23 17  0f 1b 13  0b 13 0b  07 0b 07  
+		ff f3 1b  ef df 17  db cb 13  cb b7 0f  bb a7 0f  ab 97 0b  9b 83 07  8b 73 07  7b 63 07  6b 53 00  5b 47 00  4b 37 00  3b 2b 00  2b 1f 00  1b 0f 00  0b 07 00  
+		00 00 ff  0b 0b ef  13 13 df  1b 1b cf  23 23 bf  2b 2b af  2f 2f 9f  2f 2f 8f  2f 2f 7f  2f 2f 6f  2f 2f 5f  2b 2b 4f  23 23 3f  1b 1b 2f  13 13 1f  0b 0b 0f  
+		2b 00 00  3b 00 00  4b 07 00  5f 07 00  6f 0f 00  7f 17 07  93 1f 07  a3 27 0b  b7 33 0f  c3 4b 1b  cf 63 2b  db 7f 3b  e3 97 4f  e7 ab 5f  ef bf 77  f7 d3 8b  
+		a7 7b 3b  b7 9b 37  c7 c3 37  e7 e3 57  7f bf ff  ab e7 ff  d7 ff ff  67 00 00  8b 00 00  b3 00 00  d7 00 00  ff 00 00  ff f3 93  ff f7 c7  fe fe fe  ff ff ff  
+	}
+
+	wad {
+		0 0 0 0 0
+		<D:\Program Files\GStudio8\wads\standard.wad> 1
+	}
+}
+
+level 0 {   // Root
+	<1.$$w>
+	<palette.pcx>
+	30
+	0
+	60
+	<demo.c>
+	100.000000 100.000000 100.000000
+	19.607843 39.215687 100.000000
+	100.000000 19.607843 19.607843
+	-0.000000 -0.000000 -0.000000
+	58.823528 58.823528 58.823528
+	19.607843 19.607843 19.607843
+}
+
+model 1 {   // 11-11_hmp_009
+	1 1 1
+	<11-11.hmp>
+	11-11_hmp_009
+	ndef
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+	mtl_terraintex
+	ndef
+	ndef
+}
+
+model 2 {   // tree5_2
+	0.8 0.8 0.8
+	<tree5.mdl>
+	tree5_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 3 {   // loopixtree1_2
+	3 3 3
+	<loopixtree1.mdl>
+	loopixtree1_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 4 {   // loopixtree2_2
+	5 5 5
+	<loopixtree2.mdl>
+	loopixtree2_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 5 {   // loopixtree3_2
+	3 3 3
+	<loopixtree3.mdl>
+	loopixtree3_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 6 {   // loopixtree4_2
+	3 3 3
+	<loopixtree4.mdl>
+	loopixtree4_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 7 {   // loopixtree5_2
+	4 4 4
+	<loopixtree5.mdl>
+	loopixtree5_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 8 {   // loopixtree6_2
+	3 3 3
+	<loopixtree6.mdl>
+	loopixtree6_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 9 {   // loopixtree7_2
+	1 1 1
+	<loopixtree7.mdl>
+	loopixtree7_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 10 {   // loopixtree8_2
+	4 4 3
+	<loopixtree8.mdl>
+	loopixtree8_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 11 {   // tree5_3
+	1 1 1
+	<tree5.mdl>
+	tree5_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 12 {   // loopixtree5_3
+	6 6 6
+	<loopixtree5.mdl>
+	loopixtree5_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 13 {   // loopixtree5_4
+	6 6 6
+	<loopixtree5.mdl>
+	loopixtree5_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 14 {   // loopixtree5_5
+	6 6 6
+	<loopixtree5.mdl>
+	loopixtree5_5
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 15 {   // loopixtree5_6
+	6 6 6
+	<loopixtree5.mdl>
+	loopixtree5_6
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 16 {   // loopixtree2_3
+	5 5 5
+	<loopixtree2.mdl>
+	loopixtree2_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 17 {   // loopixtree2_4
+	5 5 5
+	<loopixtree2.mdl>
+	loopixtree2_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 18 {   // fence-101_2
+	1 1 1
+	<fence-101.mdl>
+	fence-101_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 19 {   // fence-101_3
+	1 1 1
+	<fence-101.mdl>
+	fence-101_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 20 {   // fence-101_4
+	1 1 1
+	<fence-101.mdl>
+	fence-101_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 21 {   // fence-101_5
+	1 1 1
+	<fence-101.mdl>
+	fence-101_5
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 22 {   // bush3_2
+	1 1 1
+	<bush3.mdl>
+	bush3_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 23 {   // bush3_3
+	1 1 1
+	<bush3.mdl>
+	bush3_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 24 {   // bush3_4
+	1 1 1
+	<bush3.mdl>
+	bush3_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 25 {   // bush3_5
+	1 1 1
+	<bush3.mdl>
+	bush3_5
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 26 {   // grass1_2
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 27 {   // grass1_3
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 28 {   // grass1_4
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 29 {   // grass1_5
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_5
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 30 {   // grass1_6
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_6
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 31 {   // grass1_7
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_7
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 32 {   // grass1_8
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_8
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 33 {   // grass1_9
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_9
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 34 {   // grass1_10
+	0.5 0.5 0.5
+	<grass1.mdl>
+	grass1_10
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 35 {   // plant1_2
+	1 1 1
+	<plant1.mdl>
+	plant1_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 36 {   // plant1_3
+	1 1 1
+	<plant1.mdl>
+	plant1_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 37 {   // plant1_4
+	1 1 1
+	<plant1.mdl>
+	plant1_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 38 {   // plant1_5
+	1 1 1
+	<plant1.mdl>
+	plant1_5
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 39 {   // plant1_6
+	1 1 1
+	<plant1.mdl>
+	plant1_6
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 40 {   // plant1_7
+	1 1 1
+	<plant1.mdl>
+	plant1_7
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 41 {   // plant1_8
+	1 1 1
+	<plant1.mdl>
+	plant1_8
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 42 {   // plant1_9
+	1 1 1
+	<plant1.mdl>
+	plant1_9
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 43 {   // plant1_10
+	1 1 1
+	<plant1.mdl>
+	plant1_10
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 44 {   // plant1_11
+	1 1 1
+	<plant1.mdl>
+	plant1_11
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 45 {   // plant1_12
+	1 1 1
+	<plant1.mdl>
+	plant1_12
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 46 {   // plant1_13
+	1 1 1
+	<plant1.mdl>
+	plant1_13
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 47 {   // plant1_14
+	1 1 1
+	<plant1.mdl>
+	plant1_14
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 48 {   // plant1_15
+	1 1 1
+	<plant1.mdl>
+	plant1_15
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 49 {   // plant1_16
+	1 1 1
+	<plant1.mdl>
+	plant1_16
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 50 {   // plant1_17
+	1 1 1
+	<plant1.mdl>
+	plant1_17
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 51 {   // plant1_18
+	1 1 1
+	<plant1.mdl>
+	plant1_18
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 52 {   // plant1_19
+	1 1 1
+	<plant1.mdl>
+	plant1_19
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 53 {   // plant1_20
+	1 1 1
+	<plant1.mdl>
+	plant1_20
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 54 {   // plant1_21
+	1 1 1
+	<plant1.mdl>
+	plant1_21
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 55 {   // plant1_22
+	1 1 1
+	<plant1.mdl>
+	plant1_22
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 56 {   // plant1_23
+	1 1 1
+	<plant1.mdl>
+	plant1_23
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 57 {   // plant1_24
+	1 1 1
+	<plant1.mdl>
+	plant1_24
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 58 {   // plant1_25
+	1 1 1
+	<plant1.mdl>
+	plant1_25
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 59 {   // plant1_26
+	1 1 1
+	<plant1.mdl>
+	plant1_26
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 60 {   // plant1_27
+	1 1 1
+	<plant1.mdl>
+	plant1_27
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 61 {   // plant1_28
+	1 1 1
+	<plant1.mdl>
+	plant1_28
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 62 {   // plant1_29
+	1 1 1
+	<plant1.mdl>
+	plant1_29
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 63 {   // plant1_30
+	1 1 1
+	<plant1.mdl>
+	plant1_30
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 64 {   // plant1_31
+	1 1 1
+	<plant1.mdl>
+	plant1_31
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 65 {   // plant1_32
+	1 1 1
+	<plant1.mdl>
+	plant1_32
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 66 {   // plant1_33
+	1 1 1
+	<plant1.mdl>
+	plant1_33
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 67 {   // plant1_34
+	1 1 1
+	<plant1.mdl>
+	plant1_34
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 68 {   // plant1_35
+	1 1 1
+	<plant1.mdl>
+	plant1_35
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 69 {   // plant1_36
+	1 1 1
+	<plant1.mdl>
+	plant1_36
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 70 {   // plant1_37
+	1 1 1
+	<plant1.mdl>
+	plant1_37
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 71 {   // plant1_38
+	1 1 1
+	<plant1.mdl>
+	plant1_38
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 72 {   // plant1_39
+	1 1 1
+	<plant1.mdl>
+	plant1_39
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 73 {   // plant1_40
+	1 1 1
+	<plant1.mdl>
+	plant1_40
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 74 {   // plant1_41
+	1 1 1
+	<plant1.mdl>
+	plant1_41
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 75 {   // plant1_42
+	1 1 1
+	<plant1.mdl>
+	plant1_42
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 76 {   // plant1_43
+	1 1 1
+	<plant1.mdl>
+	plant1_43
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 77 {   // plant1_44
+	1 1 1
+	<plant1.mdl>
+	plant1_44
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 78 {   // plant1_45
+	1 1 1
+	<plant1.mdl>
+	plant1_45
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 79 {   // plant1_46
+	1 1 1
+	<plant1.mdl>
+	plant1_46
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 80 {   // plant1_47
+	1 1 1
+	<plant1.mdl>
+	plant1_47
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 81 {   // plant1_48
+	1 1 1
+	<plant1.mdl>
+	plant1_48
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 82 {   // plant1_49
+	1 1 1
+	<plant1.mdl>
+	plant1_49
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 83 {   // plant1_50
+	1 1 1
+	<plant1.mdl>
+	plant1_50
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 84 {   // plant1_51
+	1 1 1
+	<plant1.mdl>
+	plant1_51
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 85 {   // plant1_52
+	1 1 1
+	<plant1.mdl>
+	plant1_52
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 86 {   // plant1_53
+	1 1 1
+	<plant1.mdl>
+	plant1_53
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 87 {   // plant1_54
+	1 1 1
+	<plant1.mdl>
+	plant1_54
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 88 {   // plant1_55
+	1 1 1
+	<plant1.mdl>
+	plant1_55
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 89 {   // plant1_56
+	1 1 1
+	<plant1.mdl>
+	plant1_56
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 90 {   // plant1_57
+	1 1 1
+	<plant1.mdl>
+	plant1_57
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 91 {   // plant1_58
+	1 1 1
+	<plant1.mdl>
+	plant1_58
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 92 {   // plant1_59
+	1 1 1
+	<plant1.mdl>
+	plant1_59
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 93 {   // plant1_60
+	1 1 1
+	<plant1.mdl>
+	plant1_60
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 94 {   // plant1_61
+	1 1 1
+	<plant1.mdl>
+	plant1_61
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 95 {   // plant1_62
+	1 1 1
+	<plant1.mdl>
+	plant1_62
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 96 {   // plant1_63
+	1 1 1
+	<plant1.mdl>
+	plant1_63
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 97 {   // plant1_64
+	1 1 1
+	<plant1.mdl>
+	plant1_64
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 98 {   // plant1_65
+	1 1 1
+	<plant1.mdl>
+	plant1_65
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 99 {   // grass2_2
+	1 1 1
+	<grass2.mdl>
+	grass2_2
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 100 {   // grass2_3
+	1 1 1
+	<grass2.mdl>
+	grass2_3
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 101 {   // grass2_4
+	1 1 1
+	<grass2.mdl>
+	grass2_4
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 102 {   // grass2_5
+	1 1 1
+	<grass2.mdl>
+	grass2_5
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 103 {   // grass2_6
+	1 1 1
+	<grass2.mdl>
+	grass2_6
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 104 {   // grass2_7
+	1 1 1
+	<grass2.mdl>
+	grass2_7
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 105 {   // grass2_8
+	1 1 1
+	<grass2.mdl>
+	grass2_8
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 106 {   // grass2_9
+	1 1 1
+	<grass2.mdl>
+	grass2_9
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 107 {   // grass2_10
+	1 1 1
+	<grass2.mdl>
+	grass2_10
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 108 {   // grass2_11
+	1 1 1
+	<grass2.mdl>
+	grass2_11
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 109 {   // grass2_12
+	1 1 1
+	<grass2.mdl>
+	grass2_12
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 110 {   // grass2_13
+	1 1 1
+	<grass2.mdl>
+	grass2_13
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 111 {   // grass2_14
+	1 1 1
+	<grass2.mdl>
+	grass2_14
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 112 {   // grass2_15
+	1 1 1
+	<grass2.mdl>
+	grass2_15
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 113 {   // wald2_tga_114
+	1 1 1
+	<wald2.tga>
+	wald2_tga_114
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 114 {   // wald2_tga_114
+	1 1 1
+	<wald2.tga>
+	wald2_tga_114
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 115 {   // wald2_tga_114
+	1 1 1
+	<wald2.tga>
+	wald2_tga_114
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+model 116 {   // wald2_tga_114
+	1 1 1
+	<wald2.tga>
+	wald2_tga_114
+	ndef
+	0 0 0 0 0 0 0 0
+	0000
+	0
+	50
+	ndef
+	ndef
+}
+
+object 0 {  // Root
+	(0 0 0) (0 0 0) (1 1 1)
+	object 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+	object 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+	object 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+	object 31, 32, 33, 34, 35, 36, 37, 38, 39, 40
+	object 41, 42, 43, 44, 45, 46, 47, 48, 49, 50
+	object 51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+	object 61, 62, 63, 64, 65, 66, 67, 68, 69, 70
+	object 71, 72, 73, 74, 75, 76, 77, 78, 79, 80
+	object 81, 82, 83, 84, 85, 86, 87, 88, 89, 90
+	object 91, 92, 93, 94, 95, 96, 97, 98, 99, 100
+	object 101, 102, 103, 104, 105, 106, 107, 108, 109, 110
+	object 111, 112, 113, 114, 115, 116
+	level 0
+}
+
+object 1 {  // 11-11_hmp_009
+	(0 0 0) (-0 0 0) (1 1 1)
+	model 1
+}
+
+object 2 {  // tree5_2
+	(-106.101563 -162.775391 28.207031) (0.001739 0 0) (0.8 0.8 0.8)
+	model 2
+}
+
+object 3 {  // loopixtree1_2
+	(-431.396484 -87.145508 10.456055) (0.001739 0 0) (3 3 3)
+	model 3
+}
+
+object 4 {  // loopixtree2_2
+	(-107.125977 80.03418 17.266602) (0.001739 0 0) (5 5 5)
+	model 4
+}
+
+object 5 {  // loopixtree3_2
+	(-365.654297 -195.367188 54.573242) (0.001739 0 0) (3 3 3)
+	model 5
+}
+
+object 6 {  // loopixtree4_2
+	(-307.708984 135.251953 45.291016) (0.001739 0 0) (3 3 3)
+	model 6
+}
+
+object 7 {  // loopixtree5_2
+	(-271.012695 -142.320313 12.862305) (0.001739 0 0) (4 4 4)
+	model 7
+}
+
+object 8 {  // loopixtree6_2
+	(-211.011719 237.071289 37.488281) (0.001739 0 0) (3 3 3)
+	model 8
+}
+
+object 9 {  // loopixtree7_2
+	(-14.587891 273.033203 18.819336) (0.001739 0 0) (1 1 1)
+	model 9
+}
+
+object 10 {  // loopixtree8_2
+	(54.12207 373.15332 5.513672) (0.001739 0 0) (4 4 3)
+	model 10
+}
+
+object 11 {  // tree5_3
+	(-103.050781 358.246094 21.205078) (3.033174 0 0) (1 1 1)
+	model 11
+}
+
+object 12 {  // loopixtree5_3
+	(-337.087891 271.173828 42.28125) (0.001739 0 0) (6 6 6)
+	model 12
+}
+
+object 13 {  // loopixtree5_4
+	(95.331055 -342.404297 11.225586) (0.001739 0 0) (6 6 6)
+	model 13
+}
+
+object 14 {  // loopixtree5_5
+	(348.46875 67.25 7.748047) (0.001739 0 0) (6 6 6)
+	model 14
+}
+
+object 15 {  // loopixtree5_6
+	(411.19043 428.063477 1.177734) (0.001739 0 0) (6 6 6)
+	model 15
+}
+
+object 16 {  // loopixtree2_3
+	(108.548828 -183.758789 17.158203) (0.001721 0 0) (5 5 5)
+	model 16
+}
+
+object 17 {  // loopixtree2_4
+	(181.916992 133.398438 15.354492) (0.001721 0 0) (5 5 5)
+	model 17
+}
+
+object 18 {  // fence-101_2
+	(102.577148 97.851563 8.763672) (-2.235146 0 0) (1 1 1)
+	model 18
+}
+
+object 19 {  // fence-101_3
+	(163.333984 203.143555 11.056641) (-2.001214 0 0) (1 1 1)
+	model 19
+}
+
+object 20 {  // fence-101_4
+	(115.318359 312.222656 13.266602) (0.84069 0 0) (1 1 1)
+	model 20
+}
+
+object 21 {  // fence-101_5
+	(-53.404297 -90.387695 2.149414) (-2.886731 0 0) (1 1 1)
+	model 21
+}
+
+object 22 {  // bush3_2
+	(70.31543 364.099609 8.405273) (0.001739 0 0) (1 1 1)
+	model 22
+}
+
+object 23 {  // bush3_3
+	(37.811523 -119.326172 1.708984) (0.653016 0 0) (1 1 1)
+	model 23
+}
+
+object 24 {  // bush3_4
+	(-166.366211 177.18457 47.47168) (0.001739 0 0) (1 1 1)
+	model 24
+}
+
+object 25 {  // bush3_5
+	(118.338867 5.139648 5.055664) (0.001739 0 0) (1 1 1)
+	model 25
+}
+
+object 26 {  // grass1_2
+	(140.150391 364.917969 15.941406) (0.001739 0 0) (0.5 0.5 0.5)
+	model 26
+}
+
+object 27 {  // grass1_3
+	(159.709961 411.058594 17.699219) (0.001739 0 0) (0.5 0.5 0.5)
+	model 27
+}
+
+object 28 {  // grass1_4
+	(272.22168 305.673828 21.861328) (0.001739 0 0) (0.5 0.5 0.5)
+	model 28
+}
+
+object 29 {  // grass1_5
+	(199.625 181.660156 23.21582) (0.001739 0 0) (0.5 0.5 0.5)
+	model 29
+}
+
+object 30 {  // grass1_6
+	(71.399414 241.855469 26.458984) (0.001739 0 0) (0.5 0.5 0.5)
+	model 30
+}
+
+object 31 {  // grass1_7
+	(-13.904297 85.230469 26.644531) (0.001739 0 0) (0.5 0.5 0.5)
+	model 31
+}
+
+object 32 {  // grass1_8
+	(9.161133 -49.946289 13.078125) (0.001739 0 0) (0.5 0.5 0.5)
+	model 32
+}
+
+object 33 {  // grass1_9
+	(22.024414 262.766602 24.516602) (0.001739 0 0) (0.5 0.5 0.5)
+	model 33
+}
+
+object 34 {  // grass1_10
+	(273.678711 209.77832 20.506836) (0.001739 0 0) (0.5 0.5 0.5)
+	model 34
+}
+
+object 35 {  // plant1_2
+	(77.076172 238.140625 15.083984) (0.001739 0 0) (1 1 1)
+	model 35
+}
+
+object 36 {  // plant1_3
+	(52.611328 185.774414 15.508789) (0.001739 0 0) (1 1 1)
+	model 36
+}
+
+object 37 {  // plant1_4
+	(63.830078 214.90332 16.048828) (0.001739 0 0) (1 1 1)
+	model 37
+}
+
+object 38 {  // plant1_5
+	(27.089844 198.800781 15.341797) (0.001739 0 0) (1 1 1)
+	model 38
+}
+
+object 39 {  // plant1_6
+	(41.029297 216.922852 11.910156) (0.001739 0 0) (1 1 1)
+	model 39
+}
+
+object 40 {  // plant1_7
+	(71.587891 287.564453 15.008789) (0.001739 0 0) (1 1 1)
+	model 40
+}
+
+object 41 {  // plant1_8
+	(92.357422 258.192383 13.8125) (0.001739 0 0) (1 1 1)
+	model 41
+}
+
+object 42 {  // plant1_9
+	(112.711914 295.869141 13.270508) (0.001739 0 0) (1 1 1)
+	model 42
+}
+
+object 43 {  // plant1_10
+	(90.415039 313.367188 10.754883) (0.001739 0 0) (1 1 1)
+	model 43
+}
+
+object 44 {  // plant1_11
+	(130.893555 313.061523 9.120117) (0.001739 0 0) (1 1 1)
+	model 44
+}
+
+object 45 {  // plant1_12
+	(105.633789 340.232422 11.363281) (0.001739 0 0) (1 1 1)
+	model 45
+}
+
+object 46 {  // plant1_13
+	(155.538086 345.978516 3.5625) (0.001739 0 0) (1 1 1)
+	model 46
+}
+
+object 47 {  // plant1_14
+	(134.350586 378.138672 2.798828) (0.001739 0 0) (1 1 1)
+	model 47
+}
+
+object 48 {  // plant1_15
+	(155.750977 371.924805 2.375) (0.001739 0 0) (1 1 1)
+	model 48
+}
+
+object 49 {  // plant1_16
+	(166.959961 391.821289 2.064453) (0.001739 0 0) (1 1 1)
+	model 49
+}
+
+object 50 {  // plant1_17
+	(140.004883 419.707031 6.478516) (0.001739 0 0) (1 1 1)
+	model 50
+}
+
+object 51 {  // plant1_18
+	(163.730469 428.9375 5.677734) (0.001739 0 0) (1 1 1)
+	model 51
+}
+
+object 52 {  // plant1_19
+	(193.324219 424.121094 4.402344) (0.001739 0 0) (1 1 1)
+	model 52
+}
+
+object 53 {  // plant1_20
+	(98.614258 379.602539 3.527344) (0.001739 0 0) (1 1 1)
+	model 53
+}
+
+object 54 {  // plant1_21
+	(100.329102 416.976563 5.591797) (0.001739 0 0) (1 1 1)
+	model 54
+}
+
+object 55 {  // plant1_22
+	(122.698242 437.543945 9.360352) (0.001739 0 0) (1 1 1)
+	model 55
+}
+
+object 56 {  // plant1_23
+	(216.239258 233.345703 8.454102) (0.001739 0 0) (1 1 1)
+	model 56
+}
+
+object 57 {  // plant1_24
+	(225.208008 196.408203 10.6875) (0.001739 0 0) (1 1 1)
+	model 57
+}
+
+object 58 {  // plant1_25
+	(252.566406 164.527344 13.922852) (0.001739 0 0) (1 1 1)
+	model 58
+}
+
+object 59 {  // plant1_26
+	(284.663086 164.072266 11.999023) (0.001739 0 0) (1 1 1)
+	model 59
+}
+
+object 60 {  // plant1_27
+	(312.389648 198.12793 13.147461) (0.001739 0 0) (1 1 1)
+	model 60
+}
+
+object 61 {  // plant1_28
+	(308.711914 241.888672 16.836914) (0.001739 0 0) (1 1 1)
+	model 61
+}
+
+object 62 {  // plant1_29
+	(282.521484 260.875 10.669922) (0.001739 0 0) (1 1 1)
+	model 62
+}
+
+object 63 {  // plant1_30
+	(245.235352 244.614258 8.913086) (0.001739 0 0) (1 1 1)
+	model 63
+}
+
+object 64 {  // plant1_31
+	(272.250977 188.239258 11.338867) (0.001739 0 0) (1 1 1)
+	model 64
+}
+
+object 65 {  // plant1_32
+	(265.032227 214.5625 30.12207) (0.001739 0 0) (1 1 1)
+	model 65
+}
+
+object 66 {  // plant1_33
+	(266.719727 227.003906 10.375977) (0.001739 0 0) (1 1 1)
+	model 66
+}
+
+object 67 {  // plant1_34
+	(205.96875 243.614258 7.925781) (0.001739 0 0) (1 1 1)
+	model 67
+}
+
+object 68 {  // plant1_35
+	(233.376953 272.446289 7.189453) (0.001739 0 0) (1 1 1)
+	model 68
+}
+
+object 69 {  // plant1_36
+	(264.955078 275.530273 8.924805) (0.001739 0 0) (1 1 1)
+	model 69
+}
+
+object 70 {  // plant1_37
+	(190.658203 186.636719 31.675781) (0.001739 0 0) (1 1 1)
+	model 70
+}
+
+object 71 {  // plant1_38
+	(157.53125 209.130859 10.568359) (0.001739 0 0) (1 1 1)
+	model 71
+}
+
+object 72 {  // plant1_39
+	(181.106445 244.744141 4.708008) (0.001739 0 0) (1 1 1)
+	model 72
+}
+
+object 73 {  // plant1_40
+	(209.210938 277.442383 6.270508) (0.001739 0 0) (1 1 1)
+	model 73
+}
+
+object 74 {  // plant1_41
+	(273.220703 309.203125 30.125) (0.001739 0 0) (1 1 1)
+	model 74
+}
+
+object 75 {  // plant1_42
+	(291.640625 324.989258 11.861328) (0.001739 0 0) (1 1 1)
+	model 75
+}
+
+object 76 {  // plant1_43
+	(302.310547 298.007813 15.853516) (0.001739 0 0) (1 1 1)
+	model 76
+}
+
+object 77 {  // plant1_44
+	(323.898438 256.265625 20.758789) (0.001739 0 0) (1 1 1)
+	model 77
+}
+
+object 78 {  // plant1_45
+	(312.066406 272.305664 19.119141) (0.001739 0 0) (1 1 1)
+	model 78
+}
+
+object 79 {  // plant1_46
+	(316.905273 347.004883 15.326172) (0.001739 0 0) (1 1 1)
+	model 79
+}
+
+object 80 {  // plant1_47
+	(332.549805 306.21875 22.676758) (0.001739 0 0) (1 1 1)
+	model 80
+}
+
+object 81 {  // plant1_48
+	(315.926758 378.90625 10.079102) (0.001739 0 0) (1 1 1)
+	model 81
+}
+
+object 82 {  // plant1_49
+	(341.588867 351.53418 15.119141) (0.001739 0 0) (1 1 1)
+	model 82
+}
+
+object 83 {  // plant1_50
+	(325.226563 404.516602 8.998047) (0.001739 0 0) (1 1 1)
+	model 83
+}
+
+object 84 {  // plant1_51
+	(349.068359 378.467773 10.776367) (0.001739 0 0) (1 1 1)
+	model 84
+}
+
+object 85 {  // plant1_52
+	(358.772461 330.098633 19.032227) (0.001739 0 0) (1 1 1)
+	model 85
+}
+
+object 86 {  // plant1_53
+	(363.623047 349.788086 12.783203) (0.001739 0 0) (1 1 1)
+	model 86
+}
+
+object 87 {  // plant1_54
+	(147.103516 140.160156 11.950195) (0.001739 0 0) (1 1 1)
+	model 87
+}
+
+object 88 {  // plant1_55
+	(170.696289 80.46875 9.182617) (0.001739 0 0) (1 1 1)
+	model 88
+}
+
+object 89 {  // plant1_56
+	(205.379883 102.138672 13.666016) (0.001739 0 0) (1 1 1)
+	model 89
+}
+
+object 90 {  // plant1_57
+	(217.231445 115.933594 16.045898) (0.001739 0 0) (1 1 1)
+	model 90
+}
+
+object 91 {  // plant1_58
+	(107.445313 88.589844 7.933594) (0.001739 0 0) (1 1 1)
+	model 91
+}
+
+object 92 {  // plant1_59
+	(131.616211 61.758789 6.655273) (0.001739 0 0) (1 1 1)
+	model 92
+}
+
+object 93 {  // plant1_60
+	(7.838867 103.891602 14.65625) (0.001739 0 0) (1 1 1)
+	model 93
+}
+
+object 94 {  // plant1_61
+	(-34.576172 110.943359 18.910156) (0.001739 0 0) (1 1 1)
+	model 94
+}
+
+object 95 {  // plant1_62
+	(-60.59375 35.009766 11.688477) (0.001739 0 0) (1 1 1)
+	model 95
+}
+
+object 96 {  // plant1_63
+	(-76.84375 71.487305 20.922852) (0.001739 0 0) (1 1 1)
+	model 96
+}
+
+object 97 {  // plant1_64
+	(-33.575195 55.383789 14.209961) (0.001739 0 0) (1 1 1)
+	model 97
+}
+
+object 98 {  // plant1_65
+	(33.398438 -70.586914 1.330078) (0.001739 0 0) (1 1 1)
+	model 98
+}
+
+object 99 {  // grass2_2
+	(-7.317383 93.636719 21.456055) (0.001739 0 0) (1 1 1)
+	model 99
+}
+
+object 100 {  // grass2_3
+	(55.952148 237.707031 23.396484) (0.001739 0 0) (1 1 1)
+	model 100
+}
+
+object 101 {  // grass2_4
+	(84.227539 299.208984 17.452148) (0.001739 0 0) (1 1 1)
+	model 101
+}
+
+object 102 {  // grass2_5
+	(135.263672 369.860352 13.857422) (0.001739 0 0) (1 1 1)
+	model 102
+}
+
+object 103 {  // grass2_6
+	(251.091797 284.450195 14.160156) (0.001739 0 0) (1 1 1)
+	model 103
+}
+
+object 104 {  // grass2_7
+	(206.355469 227.703125 15.049805) (0.001739 0 0) (1 1 1)
+	model 104
+}
+
+object 105 {  // grass2_8
+	(278.042969 237.162109 13.648438) (0.001739 0 0) (1 1 1)
+	model 105
+}
+
+object 106 {  // grass2_9
+	(234.261719 176.918945 19.626953) (0.001739 0 0) (1 1 1)
+	model 106
+}
+
+object 107 {  // grass2_10
+	(160.111328 168.708008 20.104492) (0.001739 0 0) (1 1 1)
+	model 107
+}
+
+object 108 {  // grass2_11
+	(78.441406 283.999023 19.431641) (0.001739 0 0) (1 1 1)
+	model 108
+}
+
+object 109 {  // grass2_12
+	(111.768555 341.416016 18.388672) (0.001739 0 0) (1 1 1)
+	model 109
+}
+
+object 110 {  // grass2_13
+	(167.75 392.540039 11.591797) (0.001739 0 0) (1 1 1)
+	model 110
+}
+
+object 111 {  // grass2_14
+	(38.600586 306.873047 24.324219) (0.001739 0 0) (1 1 1)
+	model 111
+}
+
+object 112 {  // grass2_15
+	(2.726563 258.807617 24.203125) (0.001739 0 0) (1 1 1)
+	model 112
+}
+
+object 113 {  // wald2_tga_114
+	(-255.405182 -509.263763 115.190201) (1.570796 0 0) (1 1 1)
+	model 113
+}
+
+object 114 {  // wald2_tga_114
+	(253.058762 -511.421631 115.190201) (1.570796 0 0) (1 1 1)
+	model 114
+}
+
+object 115 {  // wald2_tga_114
+	(-512.579468 -259.691895 115.190216) (3.141592 0 0) (1 1 1)
+	model 115
+}
+
+object 116 {  // wald2_tga_114
+	(-512.181946 246.641815 106.295868) (3.141592 0 0) (1 1 1)
+	model 116
+}
+
